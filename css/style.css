@@ -53,6 +53,7 @@ button.btn-secondary:hover{
 }
 .mouse-pointer{
 	background-color: #323232;
+	
 	position: absolute;
 	color: white;
 	width: 25px;
