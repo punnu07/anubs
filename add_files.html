@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Anub's | File Upload</title>
+	</head>
+<body>
+<br>
+<br>
+<center>	
+	<b>Image Upload(jpg files only)</b>
+	<br>
+	<br>
+	<br>
+	<form action="add_image.php" enctype="multipart/form-data" method="POST">
+		<input type="file" name="input-file" id="input-file[]" accept="all" multiple />
+		
+		<button type="submit" name="single-upload" >UPLOAD</button>
+
+	</form>
+</center>
+
+</body>
+</html>
+
+<script type="text/javascript">
+
+
+
+	function _(id){
+		return document.getElementById(id);
+	}
+
+	function select_file_name(id) {
+	    var filename = _(id).files[0].name;
+	    if (filename.length > 20) {
+	        filename = filename.substring(0, 20) + '...'
+	    };
+	    _('file-upload').innerHTML = '-> ' + filename;
+	    _('file-upload').style.backgroundColor = '#1dd1a1'
+	}
+
+</script>

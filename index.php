@@ -16,6 +16,14 @@
 	<link href="css/jquery.fancybox.min.css" rel="stylesheet">
 	<!-- Custom styles for this template -->
 	<link href="css/style.css" rel="stylesheet">
+	
+	
+	<style type="text/css">
+			ul li {list-style: none; margin-bottom: 15px;}
+			ul li img {display: block;}
+			ul li span {display: block;}
+		</style>
+	
 </head>
 <body>
 <div class="wrapper-main">
@@ -166,6 +174,7 @@
 						</div>
 					</div>
 			   </div>
+			   
 			   <div class="col-lg-4 mb-4">
 					<div class="card h-100">
 						<div class="card-img">
@@ -227,9 +236,137 @@
 	</div>
 	
 	
-<!--   video should be added here  -->	
+<!--   Images  -->	
 	
+<?php
+
+	// open this directory 
+	$myDirectory = opendir("img");
+
+	// get each entry
+	while($entryName = readdir($myDirectory))
+	 {
+		 if(strcmp($entryName,".")!=0 && strcmp($entryName,"..")!=0)
+		 	{
+				$dirArray[] = $entryName;
+			}
 		
+	}
+
+	// close directory
+	closedir($myDirectory);
+
+	//	count elements in array
+	$indexCount	= count($dirArray);
+
+	?>
+
+	
+
+
+	<div class="services-bar" id="gallery">
+		<div class="container">
+			<h1 class="py-4">Gallery </h1>
+			<!-- Services Section -->
+
+			
+             <div class="row">
+            	<?php
+				for($index=0; $index < $indexCount; $index++) 
+				{
+					//echo $dirArray[$index];
+				?>	
+				
+				
+                           
+			   <div class="col-lg-4 mb-4">
+					<div class="card h-100">
+						<div class="card-img">
+							<img class="img-fluid" src="img/<?php echo $dirArray[$index]; ?>" alt="" />
+						</div>
+						
+					</div>
+					</div>
+					
+				<?php
+				}
+				?>
+				</div>
+	               
+
+  </div>
+  </div>
+
+
+	
+	
+	
+	<!-- Videos -->
+	
+<?php
+
+	// open this directory 
+	$myDirectory = opendir("videos/");
+
+	// get each entry
+	while($entryName = readdir($myDirectory))
+	 {
+		 if(strcmp($entryName,".")!=0 && strcmp($entryName,"..")!=0)
+		 	{
+				$dirArray2[] = $entryName;
+			}	
+	 }
+
+	// close directory
+	closedir($myDirectory);
+
+	//	count elements in array
+	$indexCount	= count($dirArray2);
+	
+	   
+     
+     
+     
+	?>
+
+	
+
+
+	<div class="services-bar" id="videos">
+		<div class="container">
+			<h1 class="py-4">Videos</h1>
+			<!-- Services Section -->
+
+			
+             <div class="row">
+            	<?php
+				for($index=0; $index < $indexCount; $index++) 
+				{
+					
+				?>	
+				
+				
+                           
+			   <div class="col-lg-4 mb-4">
+					<div class="card h-100">
+						<div class="card-img">
+							
+							<video>  <source src="videos/<?php echo $dirArray2[$index];?>" type="video/mp4"></video>
+						</div>
+						
+					</div>
+					</div>
+					
+				<?php
+				}
+				?>
+				</div>
+	               
+
+  </div>
+  </div>
+
+
 	
 	
 	
