@@ -351,7 +351,7 @@
 					<div class="card h-100">
 						<div class="card-img">
 							
-							<video>  <source src="videos/<?php echo $dirArray2[$index];?>" type="video/mp4"></video>
+							<video controls width="400" height="300">  <source src="videos/<?php echo $dirArray2[$index];?>"   type="video/mp4"></video>
 						</div>
 						
 					</div>
