@@ -322,10 +322,7 @@
 
 	//	count elements in array
 	$indexCount	= count($dirArray2);
-	
-	   
-     
-     
+	         
      
 	?>
 
