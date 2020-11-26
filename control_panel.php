@@ -1,3 +1,7 @@
+<?php
+   session_start();
+   ?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,7 +18,23 @@
 	<br>
 	<br>	
 
+<?php
+   
+
+
+if(strcmp($_SESSION["success"],"yes")!=0)
+{
+		header("Location:admin_login.html");
+}
+
+
+?>
 	
+	
+</center>
+	 
+	
+		
 	 <div style="width: 50%; height: 50%; background-color: white; float:left; border-right:solid 1px #ccc;">
 		<center>
 	<b>Image Upload(jpg files only)</b>
@@ -99,11 +119,16 @@
 
 	</form>
 	
-	
-</center>
-	 
-	
-	
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<a href=logout.php> logout</a>
+
 	
 
 

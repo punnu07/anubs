@@ -12,7 +12,7 @@ else
 	echo "Deleted ".$_POST['delete_video_name'];
 }
 echo "<br><br>";
-echo "<a href=control_panel.html>back</a>";
+echo "<a href=control_panel.php>back</a>";
 
 
 ?>

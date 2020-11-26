@@ -17,6 +17,6 @@ if (is_dir($dir)){
 }
 
 echo "<br><br>";
-echo "<a href=control_panel.html>back</a>";
+echo "<a href=control_panel.php>back</a>";
 
 ?> 

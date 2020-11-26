@@ -1,16 +1,22 @@
+<?php
+   session_start();
+   ?>
+
+
 <html>
    <head>
-      <title>Connecting MySQL Server</title>
+      <title>Anubs | Logging in </title>
    </head>
    <body>
       <?php
-      
+       
 	     
          $dbhost = 'localhost:3306';
          $dbuser = 'root';
          $dbpass = 'tiger';
          $conn = mysqli_connect($dbhost, $dbuser, $dbpass);
          $sucess=0;
+         
          
          if(! $conn ) {
             die('Could not connect: ' . mysql_error());
@@ -27,8 +33,9 @@
 					
 					if(strcmp($_POST['username'], $row["username"])==0 && strcmp($_POST['password'], $row["password"])==0)
 					{
+						
 						$sucess=1;
-						$_POST['success']="yes";
+						$_SESSION["success"]="yes";
 						header("Location:control_panel.php");
 						break;
 					}
@@ -37,12 +44,13 @@
           }
           if($sucess==0)
           {
-			  $_POST['success']="no";
+			  mysql_close($conn);
+			  $_SESSION["success"]="no";
 			echo "username or password incorrect<br><br>";
 			echo "<a href=admin_login.html> back</a>"; 
           }
           
-          mysql_close($conn);
+          
       ?>
    </body>
 </html>
