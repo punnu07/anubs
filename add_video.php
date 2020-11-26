@@ -1,4 +1,5 @@
 <?php
+
 if($_FILES['input-file']['name']){
 	// checking if the file is selected or not
 	
@@ -10,8 +11,6 @@ if($_FILES['input-file']['name']){
 	$file_ext = explode('.', $file_name);
 	$file_act_ext = strtolower(end($file_ext));
 	$allowed1 = ['mp4'];
-	$allowed2 = ['jpeg'];
-	$allowed3 = ['png'];
 	$path = 'videos/';
 
       
@@ -36,10 +35,13 @@ if($_FILES['input-file']['name']){
 	$move = move_uploaded_file($file_tmp, $file_des);
 
 	if(!$move){
-	 	return "Sorry Failed To Upload Image!" ; 
+	 	return "Sorry Failed To Upload video!" ; 
 	}else
 	{ 
-	
+	    echo "video uploaded";
+		echo "<br><br>";
+	    echo "<a href=control_panel.php>back</a>";
+		
 	}
 }
 	

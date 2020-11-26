@@ -1,3 +1,6 @@
+
+
+
 <?php
 if($_FILES['input-file']['name']){
 	// checking if the file is selected or not
@@ -21,9 +24,11 @@ if($_FILES['input-file']['name']){
      
 
 	if( $file_error != 0 )
+	{
+		echo "file add error";
 		return ;
-
-     
+	
+	} 
  	if( $file_size > 16000000 )
  	   {
 		 echo $file_size;  
@@ -37,10 +42,15 @@ if($_FILES['input-file']['name']){
 
 	if(!$move){
 	 	return "Sorry Failed To Upload Image!" ; 
-	}else
-	{ 
-	
 	}
+	else
+	{ 
+		echo "Image uploaded";
+		echo "<br><br>";
+	    echo "<a href=control_panel.php>back</a>";
+		
+	}
+	
 }
 	
 ?>
