@@ -166,7 +166,7 @@
 			   <div class="col-lg-4 mb-4">
 					<div class="card h-100">
 						<div class="card-img">
-							<img class="img-fluid" src="images/couple.jpeg" alt="" />
+							<img class="img-fluid" src="images/couple_new.jpg" alt="" />
 						</div>
 						<div class="card-body">
 							<h4 class="card-header"> Pre-Mariatal Counselling </h4>
