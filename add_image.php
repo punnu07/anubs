@@ -1,8 +1,33 @@
 
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<link rel="stylesheet" href="css/new_styles.css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<div class="wrapper fadeInDown">
+  <div id="formContent">
+    <!-- Tabs Titles -->
+
+    <!-- Icon -->
+    
+    <!-- Login Form -->
+       
+ <br>
+ <br>
+ <br>  
+ 
+  
+  <center>
+	  <div class="container"> 
+
+
+
 
 
 <?php
-if($_FILES['input-file']['name']){
+if($_FILES['input-file']['name'])
+{
 	// checking if the file is selected or not
 	
 	$file_name = $_FILES['input-file']['name'];
@@ -25,6 +50,7 @@ if($_FILES['input-file']['name']){
 
 	if( $file_error != 0 )
 	{
+		
 		echo "file add error";
 		return ;
 	
@@ -40,8 +66,11 @@ if($_FILES['input-file']['name']){
 
 	$move = move_uploaded_file($file_tmp, $file_des);
 
-	if(!$move){
-	 	return "Sorry Failed To Upload Image!" ; 
+	if(!$move)
+	{
+	 	
+	 	 "Unable to add"
+	 	 
 	}
 	else
 	{ 
@@ -52,5 +81,19 @@ if($_FILES['input-file']['name']){
 	}
 	
 }
+else
+{
+	
+}
 	
 ?>
+
+
+
+</div> 
+  </center>
+  
+    
+    
+  </div>
+</div>

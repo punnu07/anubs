@@ -1,3 +1,28 @@
+
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<link rel="stylesheet" href="css/new_styles.css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<div class="wrapper fadeInDown">
+  <div id="formContent">
+    <!-- Tabs Titles -->
+
+    <!-- Icon -->
+    
+    <!-- Login Form -->
+     <center>  
+ <br>
+ <br>
+ <br>  
+ 
+  
+  <center>
+	  <div class="container"> 
+
+
+
 <?php
 
 if($_FILES['input-file']['name']){
@@ -34,9 +59,12 @@ if($_FILES['input-file']['name']){
 
 	$move = move_uploaded_file($file_tmp, $file_des);
 
-	if(!$move){
-	 	return "Sorry Failed To Upload video!" ; 
-	}else
+	if(!$move)
+	{
+		
+	 	header("Location:control_panel.php");
+	}
+	else
 	{ 
 	    echo "video uploaded";
 		echo "<br><br>";
@@ -46,3 +74,12 @@ if($_FILES['input-file']['name']){
 }
 	
 ?>
+
+
+</div> 
+  </center>
+  
+    
+    
+  </div>
+</div>

@@ -37,18 +37,17 @@
 						$sucess=1;
 						$_SESSION["success"]="yes";
 						header("Location:control_panel.php");
-						break;
+						
+					}
+					else
+					{
+						$_SESSION["success"]="no";
+						header("Location:wrong_login.html");
 					}
 		  
 				}
           }
-          if($sucess==0)
-          {
-			  mysql_close($conn);
-			  $_SESSION["success"]="no";
-			echo "username or password incorrect<br><br>";
-			echo "<a href=admin_login.html> back</a>"; 
-          }
+          
           
           
       ?>
