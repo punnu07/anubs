@@ -63,7 +63,7 @@
 	        <img src="images/nikas.jpg" alt="logo" style="width:50px;height:50px" />
 			 <b style="color:#173F5F;font-size:20px">Anub's </b>		
 			</div>
-            <a class="navbar-brand" href="index.html" >  </a>
+            <a class="navbar-brand" href="index.php" >  </a>
             
           
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -72,7 +72,7 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item">
-						<a class="nav-link " href="index.html">Home</a>
+						<a class="nav-link " href="index.php">Home</a>
 					</li>
 					
 					<li class="nav-item">
@@ -491,18 +491,7 @@
 					<h5 class="headin5_amrc col_white_amrc pt2">Follow us</h5>
 					<!--headin5_amrc ends here-->
 					<ul class="footer_ul2_amrc">
-						<li>
-							<a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a>
-							<p><a href="#">https://www.lipsum.com/</a></p>
-						</li>
-						<li>
-							<a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a>
-							<p><a href="#">https://www.lipsum.com/</a></p>
-						</li>
-						<li>
-							<a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a>
-							<p><a href="#">https://www.lipsum.com/</a></p>
-						</li>
+						
 					</ul>
 					<!--footer_ul2_amrc ends here-->
 				</div>
