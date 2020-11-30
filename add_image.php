@@ -26,8 +26,10 @@
 
 
 <?php
+
 if($_FILES['input-file']['name'])
 {
+	
 	// checking if the file is selected or not
 	
 	$file_name = $_FILES['input-file']['name'];
@@ -65,11 +67,12 @@ if($_FILES['input-file']['name'])
 	$file_des = $path .'/'. $file_name;
 
 	$move = move_uploaded_file($file_tmp, $file_des);
+    
 
 	if(!$move)
 	{
 	 	
-	 	 "Unable to add"
+	 	header("Location:control_panel.php");	 	
 	 	 
 	}
 	else
@@ -83,7 +86,8 @@ if($_FILES['input-file']['name'])
 }
 else
 {
-	
+
+	header("Location:control_panel.php");
 }
 	
 ?>

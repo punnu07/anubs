@@ -72,6 +72,13 @@ if($_FILES['input-file']['name']){
 		
 	}
 }
+
+else
+{
+
+	header("Location:control_panel.php");
+}
+	
 	
 ?>
 
