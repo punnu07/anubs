@@ -61,7 +61,7 @@
 			
 			<div>
 	        <img src="images/nikas.jpg" alt="logo" style="width:50px;height:50px" />
-			 <b style="color:#173F5F;font-size:20px">Anub's </b>		
+			 <b style="color:#173F5F;font-size:20px">Anub's Counselling</b>		
 			</div>
             <a class="navbar-brand" href="index.php" >  </a>
             
@@ -145,8 +145,8 @@
         <div class="about-main" id="about">
             <div class="row">
                <div class="col-lg-6">
-                  <h2>Anub's Counselling and Psychotherapic Center</h2>
-                  Anub Thomas MA, MPhil, MSW, MTh, Phd(pursuing) is an unassuming psychiatric counsellor with a personal touch. He has a knack of getting into the deepest of your personal problems and suggests workable solutions. His rather rare and unusual credentials helps him to see your problems through multiple viewpoints.
+                  <h2>Anub's Counselling and Psychotherapy Center</h2>
+                  Anub Thomas MA, MPhil, MSW, MTh, Phd(pursuing) is an unassuming counsellor with a personal touch. He has a knack of getting into the deepest of your personal problems and suggests workable solutions. His rather rare and unusual credentials helps him to see your problems through multiple viewpoints.
                   Originally trained to become an ordained priest, he answered a much higher call to dedicate his expertise to offer a helping hand to those who slides irreversibly into the depths of personal griefs. He works as a psychiatic counsellor at Holy Cross Hospital and Mental Health Center, Kanjirappally. He is also a Consulant Family Therapist at Minority Welfare Department, Govt of Kerala.
                   				  
                </div>
@@ -426,15 +426,15 @@
 					  <br>
 					</p>
 					<p>
-						<abbr title="Phone">P</abbr>: 
+						<abbr title="Phone">For bookings</abbr>: 
 						9946187292
 					</p>
 					<p>
-						<abbr title="Email">E</abbr>:
+						<abbr title="Email">Email</abbr>:
 						<a href="mailto:name@example.com"> anubscounselling@gmail.com </a>
 					</p>
 					<p>
-						<abbr title="Hours">H</abbr>: Monday - Friday: 9:00 AM to 5:00 PM
+						<abbr title="Hours">Timings</abbr>: Every day: 9:00 AM to 5:00 PM
 					</p>
 				</div>
 			</div>
