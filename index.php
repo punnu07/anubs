@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="description" content="">
 	<meta name="author" content="">
-	<title> Anub's Counselling & Psychotherapy Center</title>
+	<title> Anub's Counselling & Psychotherapy Center, Ranni, Pathanamthitta</title>
 	<!-- Bootstrap core CSS -->
 	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<!-- Fontawesome CSS -->
@@ -34,11 +34,9 @@
 				<div class="col-lg-6">
 					<div class="social-media">
 						<ul>
-							<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-							<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-							<li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-							<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-							<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+							<li><a href="https://www.facebook.com/pg/Anubs-Counselling-Psychotherapy-Centre-560192681015455/about/"><i class="fab fa-facebook-f"></i></a></li>
+						
+						
 						</ul>
 					</div>
 				</div>
@@ -103,9 +101,9 @@
             </ol>
             <div class="carousel-inner" role="listbox">
                <!-- Slide One - Set the background image for this slide in the line below -->
-               <div class="carousel-item active" style="background-image: url('images/session1.jpg')">
+               <div class="carousel-item active" style="background-image: url('images/session8.jpg')">
                   <div class="carousel-caption d-none d-md-block">
-                     <h3>Transform Your Mind and Relationships</h3>
+                    <h3>Transform Your Mind and Relationships</h3>
                      <p>Spark up Your Spirits</p>
                   </div>
                </div>
@@ -117,7 +115,7 @@
                   </div>
                </div>
                <!-- Slide Three - Set the background image for this slide in the line below -->
-               <div class="carousel-item" style="background-image: url('images/session5.jpg')">
+               <div class="carousel-item" style="background-image: url('images/session9.jpg')">
                   <div class="carousel-caption d-none d-md-block">
                      <h3> Live a Healthier Life</h3>
                      <p> Overcome your Negative Thoughts </p>
@@ -145,9 +143,9 @@
         <div class="about-main" id="about">
             <div class="row">
                <div class="col-lg-6">
-                  <h2>Anub's Counselling and Psychotherapy Center</h2>
-                  Anub Thomas MA, MPhil, MSW, MTh, Phd(pursuing) is an unassuming counsellor with a personal touch. He has a knack of getting into the deepest of your personal problems and suggests workable solutions. His rather rare and unusual credentials helps him to see your problems through multiple viewpoints.
-                  Originally trained to become an ordained priest, he answered a much higher call to dedicate his expertise to offer a helping hand to those who slides irreversibly into the depths of personal griefs. He works as a psychiatic counsellor at Holy Cross Hospital and Mental Health Center, Kanjirappally. He is also a Consulant Family Therapist at Minority Welfare Department, Govt of Kerala.
+                  <h2>Anub Thomas</h2>
+                  Anub Thomas M.A., M.Phil(Counselling & Psychotherapy), M.S.W(Psy.SW), M.Th, Phd(pursuing) is an unassuming counsellor with a personal touch. He has a knack of getting into the deepest of your personal problems and suggests workable solutions. His rather rare and unusual credentials helps him to see your problems through multiple viewpoints.
+                  Originally trained to become an ordained priest, he answered a much higher call to dedicate his expertise to offer a helping hand to those who slides irreversibly into the depths of personal griefs. He works as a psychiatric counsellor at Holy Cross Hospital and Mental Health Center, Kanjirappally. He is a Consulant Family Therapist at Minority Welfare Department, Govt of Kerala. He also conducts  counselling sessions at his Counselling and Psychotherapic Clinic, Ranni.
                   				  
                </div>
                <div class="col-lg-6">
@@ -203,7 +201,7 @@
 							<img class="img-fluid" src="images/old_people.jpeg" alt="" />
 						</div>
 						<div class="card-body">
-							<h4 class="card-header"> Geriatric Consulting </h4>
+							<h4 class="card-header"> Geriatric Counselling </h4>
 							<p class="card-text">General old age health issues, dealing with loss of loved ones, not overburdening the caregivers, dealing with Alzheimer's, Dementia, dealing with shifting priorities of loved ones, etc  </p>
 						</div>						
 					</div>
@@ -422,7 +420,7 @@
 					<p>
 						Anub's Counselling & Psychotherapy Centre
 						<br>
-						Near ST. Thomas Valiyapally, Ranni, Kerala 689673
+						Near St. Thomas Valiyapally, Ranni, Pathanamthitta District, Kerala 689673
 					  <br>
 					</p>
 					<p>
@@ -469,8 +467,8 @@
 					<!--headin5_amrc-->
 					<p class="mb10"></p>
 					<ul class="footer-social">
-						<li><a class="facebook hb-xs-margin" href="#"><span class="hb hb-xs spin hb-facebook"><i class="fab fa-facebook-f"></i></span></a></li>
-						<li><a class="twitter hb-xs-margin" href="#"><span class="hb hb-xs spin hb-twitter"><i class="fab fa-twitter"></i></span></a></li>
+						<li><a class="facebook hb-xs-margin" href="https://www.facebook.com/pg/Anubs-Counselling-Psychotherapy-Centre-560192681015455/about/"><span class="hb hb-xs spin hb-facebook"><i class="fab fa-facebook-f"></i></span></a></li>
+						
 						<li><a class="instagram hb-xs-margin" href="#"><span class="hb hb-xs spin hb-instagram"><i class="fab fa-instagram"></i></span></a></li>
 						<li><a class="googleplus hb-xs-margin" href="#"><span class="hb hb-xs spin hb-google-plus"><i class="fab fa-google-plus-g"></i></span></a></li>
 						<li><a class="dribbble hb-xs-margin" href="#"><span class="hb hb-xs spin hb-dribbble"><i class="fab fa-dribbble"></i></span></a></li>
@@ -512,8 +510,8 @@
 			</div>
 		</div>
         <div class="container">
-            <p class="copyright text-center">All Rights Reserved. &copy; 2018 <a href="#">Zonebiz</a> Design By : 
-				<a href="https://html.design/">html design</a>
+            <p class="copyright text-center">All Rights Reserved. &copy; 2020 <a href="#">Zonebiz</a> <br> Design By : 
+				 <b>Flare Systems</b>
             </p>
         </div>
     </footer>
