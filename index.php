@@ -273,10 +273,11 @@
 	-->
 	<div class="services-bar" id="testimonials">
 	<div class="container">
-	 <h1 class="py-4">Testimonials </h1>
+	 <h1 class="py-4"> Our Customer's Reaction</h1>
 	
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
 
 	<div class="card col-md-6 mt-5 mb-5 my-0 mx-auto">
   <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="5000">
@@ -287,7 +288,7 @@
            
             <div class="col-sm-9">
               <h3>Coping with Depression</h3>
-              <small><i>"Went for depression counselling. He understood my problems very well and suggested an action plan which I am strictly following. I am bit relieved. Would definitely recommend him for any depression/anxiety related therapy."</i> </small>
+              <small><i>"Went there for depression counselling. Anub understood my problems very well and suggested an action plan which I am strictly following. I am bit relieved. Would definitely recommend him for any depression/anxiety related therapy."</i> </small>
               <small class="smallest mute">- Antony, Pala(name changed)</small>
             </div>
           </div>
@@ -299,7 +300,7 @@
  
             <div class="col-sm-9">
               <h3>Genuinely warm person</h3>
-              <small>"<i>Anub seems a genuine person. Listens very carefully. Calm and assuring personality. Overall I am happy talking to him."</i></small>
+              <small>"<i>Anub seems to me a genuine person. Listens very carefully. Calm and assuring personality. Overall I am happy talking to him."</i></small>
               <small class="smallest mute">- Manjusha, Kottayam(Name changed)</small>
             </div>
           </div>
@@ -312,7 +313,7 @@
 			 
             <div class="col-sm-9">
               <h3>Reducing Drinking</h3>
-              <small><i>"Reached to Anub for some deaddiction related guidance. He made me understand what I am losing in terms of my money, health, energy, personal relations and most importantly time. His suggestion to reduce rather than outright rejection seems very reasonable to me. He come across as a very practical advisor with a compassionate view. Definitely recommend him for any deaddiction related advices."</i> </small>
+              <small><i>"Reached out to Mr. Anub for some deaddiction related guidance. He made me understand what I am losing in terms of my money, health, energy, personal relations and most importantly time. His suggestion to reduce rather than outright rejection seems very reasonable to me. He come across as a very practical advisor with a compassionate view. Definitely recommend him for any deaddiction related advices."</i> </small>
               <small class="smallest mute">- Joseph K J, Ranni</small>
             </div>
           </div>
@@ -325,7 +326,7 @@
 			 
             <div class="col-sm-9">
               <h3>Reduce Anxiety</h3>
-              <small><i>"I have been suffering from extreme anxiety for years now. Came to know about Anub and had a counselling session with Anub. He is someone I found to be non-judgemental. His suggestions had a soothing effect."</i></small>
+              <small><i>"I have been suffering from extreme anxiety for years now. Came to know about Anub and had a counselling session with him. He is someone I found to be non-judgemental. His suggestions had a soothing effect."</i></small>
               <small class="smallest mute">- Parvati, Erumeli(Name changed)</small>
             </div>
           </div>
@@ -371,7 +372,7 @@
 			
             <div class="col-sm-9">
               <h3>Therapy for Self Confidence</h3>
-              <small><i>"I came across as a person with low self esteem and confidence. I know that I was perceived as a shy and unworthy human being which in turn added to my worries. Came to know about Anub's hypnotherapy sessions from an acquaintance of mine. I underwent a couple of hypnotherapy sessions which I think have helped me. I feel more positive and worthy. Looking forward for more therapy sessions with him." </i></small>
+              <small><i>"I come across as a person with low self esteem and confidence. I know that I was perceived as a shy and unworthy human being which in turn added to my worries. Came to know about Anub's hypnotherapy sessions from an acquaintance of mine. I underwent a couple of hypnotherapy sessions which I think have helped me. I feel more positive and worthy. Looking forward for more therapy sessions with him." </i></small>
               <small class="smallest mute">- Nimmi - Pala(Name changed)</small>
             </div>
           </div>
@@ -390,7 +391,7 @@
            
             <div class="col-sm-9">
               <h3> Stress buster </h3>
-              <small> <i>"He helps deal with my anxiety, which has affected my daily life severely. A couple of sessions has really helped me." </i> </small>
+              <small> <i>"Anub Thomas helped me tremendously to deal with my anxiety, which has affected my daily life severely. A couple of sessions has really helped me." </i> </small>
               <small class="smallest mute">- Saumya, Ponkunnam(Name changed)</small>
             </div>
           </div>
