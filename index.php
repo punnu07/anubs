@@ -7,8 +7,7 @@
 	<meta name="author" content="">
 	<title> Anub's Counselling & Psychotherapy Center, Ranni, Pathanamthitta</title>
 	<!-- Bootstrap core CSS -->
-	
-	     
+
 
 	
 	
