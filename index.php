@@ -114,21 +114,21 @@
                <!-- Slide One - Set the background image for this slide in the line below -->
                <div class="carousel-item active" style="background-image: url('images/session8.jpg')">
                   <div class="carousel-caption ">
-                    <h3>Improve Your Mind and Relations</h3>
-                     <p>Spark up Your Spirits</p>
+                    <h3>Improve Your Relations</h3>
+                     <p>Spark up and Awaken Your Spirits</p>
                   </div>
                </div>
                <!-- Slide Two - Set the background image for this slide in the line below -->
                <div class="carousel-item" style="background-image: url('images/session5.jpg')">
                   <div class="carousel-caption ">
-                     <h3>Manage Your Stress and Anxiety </h3>
-                     <p> Stay Calm</p>
+                     <h3>Manage  Your Anxiety </h3>
+                     <p> Stay Calm, Cool, Focused and Motivated </p>
                   </div>
                </div>
                <!-- Slide Three - Set the background image for this slide in the line below -->
                <div class="carousel-item" style="background-image: url('images/session2.jpg')">
                   <div class="carousel-caption ">
-                     <h3> Live a Healthier Life</h3>
+                     <h3> Live a Healthy Life</h3>
                      <p> Overcome your Negative Thoughts </p>
                   </div>
                </div>
@@ -178,7 +178,7 @@
 				  <div class="col-lg-4 mb-4">
 					<div class="card h-100">
 						<div class="card-img">
-							<img class="img-fluid" src="images/anxiety.jpeg" alt="" />
+							<img class="img-fluid" src="images/depression.jpg" alt="" />
 						</div>
 						<div class="card-body">
 							<h4 class="card-header"> Anxiety Related Counselling </h4>
@@ -214,7 +214,7 @@
 			   <div class="col-lg-4 mb-4">
 					<div class="card h-100">
 						<div class="card-img">
-							<img class="img-fluid" src="images/child_issues.jpeg" alt="" />
+							<img class="img-fluid" src="images/child2.jpg" alt="" />
 						</div>
 						<div class="card-body">
 							<h4 class="card-header"> Child Counselling </h4>
