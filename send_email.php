@@ -13,10 +13,10 @@ Message sent
 
 if($_POST["message"]) 
 {
- mail("punnoose07@gmail.com", "Here is the subject line",$_POST["message"], "From: anubscounselling.com");
+ mail("anubpanaveli@gmail.com", "Here is the subject line",$_POST["message"], "From: anubscounselling.com");
  
 sleep(3);
-header("Location:index.html");
+header("Location:index.php");
 
 
 }
