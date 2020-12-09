@@ -1,0 +1,11 @@
+@media screen and (max-width: 480px) {   
+.sppb-carousel-pro-text h2 {
+    font-size: 23px;
+    line-height: 36px;
+    padding: 3px !important;
+    text-align: center;}
+.sppb-carousel-pro-text h3 {
+    padding: 2px !important;
+    margin: 5px !important;
+    font-size: 16px;}
+}

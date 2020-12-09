@@ -5,8 +5,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="description" content="">
 	<meta name="author" content="">
-	<title> Anub's Counselling & Psychotherapy Center</title>
+	<title> Anub's Counselling & Psychotherapy Center, Ranni, Pathanamthitta</title>
 	<!-- Bootstrap core CSS -->
+	
+	     
+
+	
+	
 	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<!-- Fontawesome CSS -->
 	<link href="css/all.css" rel="stylesheet">
@@ -16,7 +21,14 @@
 	<link href="css/jquery.fancybox.min.css" rel="stylesheet">
 	<!-- Custom styles for this template -->
 	<link href="css/style.css" rel="stylesheet">
-	
+
+      <link href="css/t.css" rel="stylesheet">
+     <script src="js/t.js"></script>
+     
+     
+
+	<link href="css/custom.css" rel="stylesheet">
+
 	
 	<style type="text/css">
 			ul li {list-style: none; margin-bottom: 15px;}
@@ -34,11 +46,9 @@
 				<div class="col-lg-6">
 					<div class="social-media">
 						<ul>
-							<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-							<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-							<li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-							<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-							<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+							<li><a href="https://www.facebook.com/pg/Anubs-Counselling-Psychotherapy-Centre-560192681015455/about/"><i class="fab fa-facebook-f"></i></a></li>
+						
+						
 						</ul>
 					</div>
 				</div>
@@ -103,22 +113,22 @@
             </ol>
             <div class="carousel-inner" role="listbox">
                <!-- Slide One - Set the background image for this slide in the line below -->
-               <div class="carousel-item active" style="background-image: url('images/session1.jpg')">
-                  <div class="carousel-caption d-none d-md-block">
-                     <h3>Transform Your Mind and Relationships</h3>
+               <div class="carousel-item active" style="background-image: url('images/session8.jpg')">
+                  <div class="carousel-caption ">
+                    <h3>Improve Your Mind and Relations</h3>
                      <p>Spark up Your Spirits</p>
                   </div>
                </div>
                <!-- Slide Two - Set the background image for this slide in the line below -->
-               <div class="carousel-item" style="background-image: url('images/session3.jpg')">
-                  <div class="carousel-caption d-none d-md-block">
-                     <h3>Manage Stress and Anxiety Effectively</h3>
-                     <p> Keep Depression at a Bay</p>
+               <div class="carousel-item" style="background-image: url('images/session5.jpg')">
+                  <div class="carousel-caption ">
+                     <h3>Manage Your Stress and Anxiety </h3>
+                     <p> Stay Calm</p>
                   </div>
                </div>
                <!-- Slide Three - Set the background image for this slide in the line below -->
-               <div class="carousel-item" style="background-image: url('images/session5.jpg')">
-                  <div class="carousel-caption d-none d-md-block">
+               <div class="carousel-item" style="background-image: url('images/session2.jpg')">
+                  <div class="carousel-caption ">
                      <h3> Live a Healthier Life</h3>
                      <p> Overcome your Negative Thoughts </p>
                   </div>
@@ -145,9 +155,9 @@
         <div class="about-main" id="about">
             <div class="row">
                <div class="col-lg-6">
-                  <h2>Anub's Counselling and Psychotherapy Center</h2>
-                  Anub Thomas MA, MPhil, MSW, MTh, Phd(pursuing) is an unassuming counsellor with a personal touch. He has a knack of getting into the deepest of your personal problems and suggests workable solutions. His rather rare and unusual credentials helps him to see your problems through multiple viewpoints.
-                  Originally trained to become an ordained priest, he answered a much higher call to dedicate his expertise to offer a helping hand to those who slides irreversibly into the depths of personal griefs. He works as a psychiatic counsellor at Holy Cross Hospital and Mental Health Center, Kanjirappally. He is also a Consulant Family Therapist at Minority Welfare Department, Govt of Kerala.
+                  <h2>Anub Thomas</h2>
+                  Anub Thomas M.A(Psy),M.S.W(Psy.SW), M.Phil(Counselling & Psychotherapy), M.Th, Phd(pursuing) is a counsellor and psychotherapist with a personal touch. He has a knack of getting into the deepest of your personal problems and suggests workable solutions. His rather rare and unusual credentials helps him to see your problems through multiple viewpoints.
+                  Originally trained to become an ordained priest, he answered a much higher call to dedicate his expertise to offer a helping hand to those who slides irreversibly into the depths of personal griefs. He works as a consultant family therapist and counsellor at Holy Cross Hospital  Kanjirappally. He is a Premarital Counselling Faculty at Minority Welfare Department, Govt of Kerala. He also conducts  counselling sessions at his Counselling and Psychotherapy Clinic, Ranni.
                   				  
                </div>
                <div class="col-lg-6">
@@ -158,11 +168,27 @@
         </div>
 	</div>	
 	
+	
 	<div class="services-bar" id="services">
 		<div class="container">
 			<h1 class="py-4">Counselling Sessions </h1>
+			
 			<!-- Services Section -->
 			<div class="row">
+				
+				  <div class="col-lg-4 mb-4">
+					<div class="card h-100">
+						<div class="card-img">
+							<img class="img-fluid" src="images/anxiety.jpeg" alt="" />
+						</div>
+						<div class="card-body">
+							<h4 class="card-header"> Anxiety Related Counselling </h4>
+							<p class="card-text"> Anxiety, depression, panic attacks, border line personality disorder, Post-traumatic stress disorder(PTSD), bipolar disorder, Schezophrenia, suicidal tendencies, controlling anger, dealing with phobias, lack of sleep, etc </p>
+						</div>						
+					</div>
+			   </div>
+				
+				
 			   <div class="col-lg-4 mb-4">
 					<div class="card h-100">
 						<div class="card-img">
@@ -193,32 +219,36 @@
 						</div>
 						<div class="card-body">
 							<h4 class="card-header"> Child Counselling </h4>
-							<p class="card-text">Rights of a child, preventing abuse, POCSO, child's inviolable spaces, teenage issues, managing anger and tantrums, understanding life goals, need for ethics, morals and values, issues with ratrace, etc    </p>
+							<p class="card-text">Rights of  child, preventing abuse, POCSO, attention deficit hyperactivity disorder(ADHD), child's inviolable spaces, teenage issues, managing anger and tantrums, understanding life goals, need for ethics, morals and values, issues with ratrace, etc    </p>
 						</div>
 					</div>
 			   </div>
+			   
 			   <div class="col-lg-4 mb-4">
+					<div class="card h-100">
+						<div class="card-img">
+							<img class="img-fluid" src="images/adol.jpg" alt="" />
+						</div>
+						<div class="card-body">
+							<h4 class="card-header"> Adolescent Counselling </h4>
+							<p class="card-text">Anger management, trust issues, managing academic pressure, bullying, relationship issues, self-esteem, managing conflicts, inferiority complex, parental divorce, eating disorders, alcohol usage, etc  </p>
+						</div>						
+					</div>
+			   </div>
+			 
+			   
+			    <div class="col-lg-4 mb-4">
 					<div class="card h-100">
 						<div class="card-img">
 							<img class="img-fluid" src="images/old_people.jpeg" alt="" />
 						</div>
 						<div class="card-body">
-							<h4 class="card-header"> Geriatric Consulting </h4>
+							<h4 class="card-header"> Geriatric Counselling </h4>
 							<p class="card-text">General old age health issues, dealing with loss of loved ones, not overburdening the caregivers, dealing with Alzheimer's, Dementia, dealing with shifting priorities of loved ones, etc  </p>
 						</div>						
 					</div>
 			   </div>
-			   <div class="col-lg-4 mb-4">
-					<div class="card h-100">
-						<div class="card-img">
-							<img class="img-fluid" src="images/anxiety.jpeg" alt="" />
-						</div>
-						<div class="card-body">
-							<h4 class="card-header"> Anxiety Related Counselling </h4>
-							<p class="card-text"> Anxiety, panic attacks, border line personality disorder, attention deficit hyperactivity disorder, bipolar disorder, Schezophrenia, suicidal tendencies, controlling anger, etc </p>
-						</div>						
-					</div>
-			   </div>
+			 
 			   <div class="col-lg-4 mb-4">
 					<div class="card h-100">
 						<div class="card-img">
@@ -226,7 +256,7 @@
 						</div>
 						<div class="card-body">
 							<h4 class="card-header"> Deaddiction Counselling </h4>
-							<p class="card-text">Issues with smoking, drinking and drugs, managing withdrawal symptoms, step by step goal setting, deaddiction strategies, partner issue with addicts, legal problems, etc</p>
+							<p class="card-text">Issues with smoking, drinking and drugs, managing withdrawal symptoms, step by step goal setting, deaddiction strategies, partner issue with addicts, etc</p>
 						</div>
 					</div>
 			   </div>
@@ -236,7 +266,156 @@
 	</div>
 	
 	
-<!--   Images  -->	
+	
+	
+	
+	
+<!-- Testimonials
+	-->
+	<div class="services-bar" id="testimonials">
+	<div class="container">
+	 <h1 class="py-4">Testimonials </h1>
+	
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<div class="card col-md-6 mt-5 mb-5 my-0 mx-auto">
+  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="5000">
+    <div class="w-100 carousel-inner" role="listbox">
+      <div class="carousel-item active">
+        <div class="carousel-caption">
+          <div class="row">
+           
+            <div class="col-sm-9">
+              <h3>Coping with Depression</h3>
+              <small><i>"Went for depression counselling. He understood my problems very well and suggested an action plan which I am strictly following. I am bit relieved. Would definitely recommend him for any depression/anxiety related therapy."</i> </small>
+              <small class="smallest mute">- Antony, Pala(name changed)</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="carousel-caption">
+          <div class="row">
+ 
+            <div class="col-sm-9">
+              <h3>Genuinely warm person</h3>
+              <small>"<i>Anub seems a genuine person. Listens very carefully. Calm and assuring personality. Overall I am happy talking to him."</i></small>
+              <small class="smallest mute">- Manjusha, Kottayam(Name changed)</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+       <div class="carousel-item">
+        <div class="carousel-caption">
+          <div class="row">
+			 
+            <div class="col-sm-9">
+              <h3>Reducing Drinking</h3>
+              <small><i>"Reached to Anub for some deaddiction related guidance. He made me understand what I am losing in terms of my money, health, energy, personal relations and most importantly time. His suggestion to reduce rather than outright rejection seems very reasonable to me. He come across as a very practical advisor with a compassionate view. Definitely recommend him for any deaddiction related advices."</i> </small>
+              <small class="smallest mute">- Joseph K J, Ranni</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="carousel-item">
+        <div class="carousel-caption">
+          <div class="row">
+			 
+            <div class="col-sm-9">
+              <h3>Reduce Anxiety</h3>
+              <small><i>"I have been suffering from extreme anxiety for years now. Came to know about Anub and had a counselling session with Anub. He is someone I found to be non-judgemental. His suggestions had a soothing effect."</i></small>
+              <small class="smallest mute">- Parvati, Erumeli(Name changed)</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      <div class="carousel-item">
+        <div class="carousel-caption">
+          <div class="row">
+			 
+            <div class="col-sm-9">
+              <h3>Marriage Happiness</h3>
+              <small><i>"Went to Anub's counselling centre for solving issues with my wife. He patiently listened to both of our accusations. He pointed out where we were wrong individually. He helped in reconciling our differences."</i></small>
+              <small class="smallest mute">- Suneesh, Kanjirappally(Name changed)</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      
+      <div class="carousel-item">
+        <div class="carousel-caption">
+          <div class="row">
+			 
+            <div class="col-sm-9">
+              <h3>Coming out of Failure</h3>
+              <small><i>"I failed big time in an exam, which I had prepared for more than an year. I couldn't even get up out of sadness and hopelessness. A couple of  sessions with Anub has helped me in dealing with failure. He helped me to create an action plan and his insinuations to look hopefully and positively towards life has been very inspiring in charting my next step in life. He was trained to become a priest which came as a surpirise to me. His calm demeanour has had a very positive impact on me overall."</i></small>
+              <small class="smallest mute">- Gino, Ranni(Name changed)</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      <div class="carousel-item">
+        <div class="carousel-caption">
+          <div class="row">
+			
+            <div class="col-sm-9">
+              <h3>Therapy for Self Confidence</h3>
+              <small><i>"I came across as a person with low self esteem and confidence. I know that I was perceived as a shy and unworthy human being which in turn added to my worries. Came to know about Anub's hypnotherapy sessions from an acquaintance of mine. I underwent a couple of hypnotherapy sessions which I think have helped me. I feel more positive and worthy. Looking forward for more therapy sessions with him." </i></small>
+              <small class="smallest mute">- Nimmi - Pala(Name changed)</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+     
+      
+      
+      
+      <div class="carousel-item">
+        <div class="carousel-caption">
+          <div class="row">
+           
+            <div class="col-sm-9">
+              <h3> Stress buster </h3>
+              <small> <i>"He helps deal with my anxiety, which has affected my daily life severely. A couple of sessions has really helped me." </i> </small>
+              <small class="smallest mute">- Saumya, Ponkunnam(Name changed)</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="float-right navi">
+    <a class="" href="#carouselExampleControls" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon ico" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="" href="#carouselExampleControls" role="button" data-slide="next">
+      <span class="carousel-control-next-icon ico" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+    </div>
+  </div>
+</div>
+	
+	</div>
+	
+	
+	<br>
+	<!--   Images  -->	
 	
 <?php
 
@@ -267,6 +446,7 @@
 	<div class="services-bar" id="gallery">
 		<div class="container">
 			<h1 class="py-4">Gallery </h1>
+
 			<!-- Services Section -->
 
 			
@@ -422,7 +602,7 @@
 					<p>
 						Anub's Counselling & Psychotherapy Centre
 						<br>
-						Near ST. Thomas Valiyapally, Ranni, Kerala 689673
+						Near St. Thomas Valiyapally, Ranni, Pathanamthitta District, Kerala 689673
 					  <br>
 					</p>
 					<p>
@@ -469,8 +649,8 @@
 					<!--headin5_amrc-->
 					<p class="mb10"></p>
 					<ul class="footer-social">
-						<li><a class="facebook hb-xs-margin" href="#"><span class="hb hb-xs spin hb-facebook"><i class="fab fa-facebook-f"></i></span></a></li>
-						<li><a class="twitter hb-xs-margin" href="#"><span class="hb hb-xs spin hb-twitter"><i class="fab fa-twitter"></i></span></a></li>
+						<li><a class="facebook hb-xs-margin" href="https://www.facebook.com/pg/Anubs-Counselling-Psychotherapy-Centre-560192681015455/about/"><span class="hb hb-xs spin hb-facebook"><i class="fab fa-facebook-f"></i></span></a></li>
+						
 						<li><a class="instagram hb-xs-margin" href="#"><span class="hb hb-xs spin hb-instagram"><i class="fab fa-instagram"></i></span></a></li>
 						<li><a class="googleplus hb-xs-margin" href="#"><span class="hb hb-xs spin hb-google-plus"><i class="fab fa-google-plus-g"></i></span></a></li>
 						<li><a class="dribbble hb-xs-margin" href="#"><span class="hb hb-xs spin hb-dribbble"><i class="fab fa-dribbble"></i></span></a></li>
@@ -512,8 +692,8 @@
 			</div>
 		</div>
         <div class="container">
-            <p class="copyright text-center">All Rights Reserved. &copy; 2018 <a href="#">Zonebiz</a> Design By : 
-				<a href="https://html.design/">html design</a>
+            <p class="copyright text-center">All Rights Reserved. &copy; 2020 <a href="#">Zonebiz</a> <br> Design By : 
+				 <b>Flare Systems</b>
             </p>
         </div>
     </footer>
@@ -529,5 +709,6 @@
 <script src="js/owl.carousel.min.js"></script>
 <script src="js/jquery.fancybox.min.js"></script>
 <script src="js/script.js"></script>
+
 </body>
 </html>
